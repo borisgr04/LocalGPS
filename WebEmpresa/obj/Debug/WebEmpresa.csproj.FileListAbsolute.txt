@@ -1,0 +1,273 @@
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.csprojResolveAssemblyReference.cache
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.dll.config
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Antlr3.Runtime.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Datos.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Entidades.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.Edm.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.OData.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Newtonsoft.Json.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Spatial.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Helpers.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.OData.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.Tracing.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Mvc.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Optimization.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Providers.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Razor.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\WebGrease.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\AutoMapper.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Datos.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Entidades.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Newtonsoft.Json.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Helpers.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Mvc.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Razor.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.Tracing.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.OData.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.Edm.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.OData.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\System.Spatial.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\AutoMapper.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\EntityFramework.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Providers.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Razor.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.Tracing.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\de\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\fr\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\it\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ja\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ko\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\ru\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.SqlServer.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.SqlServer.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\WebEmpresa\bin\es\EntityFramework.SqlServer.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.dll.config
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Antlr3.Runtime.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Datos.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Entidades.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.SqlServer.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.Edm.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.OData.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Newtonsoft.Json.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Net.Http.Formatting.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Spatial.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Helpers.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.OData.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.Tracing.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.WebHost.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Mvc.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Optimization.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Providers.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Razor.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Razor.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\WebGrease.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\AutoMapper.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Datos.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Entidades.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.SqlServer.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Newtonsoft.Json.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Net.Http.Formatting.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Helpers.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.WebHost.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Mvc.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Razor.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Razor.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.Tracing.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.OData.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.Edm.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.OData.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\System.Spatial.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\AutoMapper.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\EntityFramework.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\EntityFramework.SqlServer.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Helpers.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Mvc.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Optimization.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Providers.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Razor.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.Tracing.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\de\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\it\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\de\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\es\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\fr\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\it\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ja\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ko\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\ru\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.csprojResolveAssemblyReference.cache
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.csprojResolveAssemblyReference.cache
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.dll.config
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\WebEmpresa.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Antlr3.Runtime.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Datos.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Entidades.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.SqlServer.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.Edm.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.OData.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Web.Infrastructure.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Newtonsoft.Json.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Net.Http.Formatting.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Spatial.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Helpers.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.OData.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.Tracing.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.WebHost.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Mvc.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Optimization.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Providers.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Razor.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Deployment.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Razor.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\WebGrease.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\AutoMapper.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Datos.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Entidades.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\EntityFramework.SqlServer.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Newtonsoft.Json.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Net.Http.Formatting.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Helpers.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.WebHost.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Mvc.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Razor.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Deployment.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.WebPages.Razor.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.Tracing.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Web.Http.OData.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.Edm.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\Microsoft.Data.OData.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\System.Spatial.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\AutoMapper.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\EntityFramework.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\EntityFramework.SqlServer.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Helpers.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Mvc.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Optimization.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Providers.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Razor.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.Tracing.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Web.Http.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\de\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\it\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\de\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\es\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\fr\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\it\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ja\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ko\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\ru\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\zh-Hans\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\bin\zh-Hant\System.Spatial.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\WebEmpresa\obj\Debug\WebEmpresa.pdb

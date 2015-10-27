@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="empresaBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="categorias">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="bigint" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="empresa">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="direccion" Type="varchar" MaxLength="50" />
+          <Property Name="latitud" Type="varchar(max)" />
+          <Property Name="longitud" Type="varchar(max)" />
+          <Property Name="correo" Type="varchar" MaxLength="300" />
+          <Property Name="pass" Type="varchar(max)" />
+          <Property Name="telefono" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="empresaCategoria">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="empresa" Type="bigint" />
+          <Property Name="categoria" Type="bigint" />
+          <Property Name="codigo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="promocion">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="precio" Type="bigint" />
+          <Property Name="empresa" Type="bigint" />
+          <Property Name="fechaInicial" Type="datetime" />
+          <Property Name="fechaFinal" Type="datetime" />
+          <Property Name="imagen" Type="varchar" MaxLength="600" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="usuarios">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="correo" Type="varchar" MaxLength="300" />
+          <Property Name="pass" Type="varchar(max)" />
+          <Property Name="telefono" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <Association Name="FK_empresaCategoria_categorias">
+          <End Role="categorias" Type="Self.categorias" Multiplicity="0..1" />
+          <End Role="empresaCategoria" Type="Self.empresaCategoria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="categorias">
+              <PropertyRef Name="codigo" />
+            </Principal>
+            <Dependent Role="empresaCategoria">
+              <PropertyRef Name="categoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_empresaCategoria_empresa">
+          <End Role="empresa" Type="Self.empresa" Multiplicity="0..1" />
+          <End Role="empresaCategoria" Type="Self.empresaCategoria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="codigo" />
+            </Principal>
+            <Dependent Role="empresaCategoria">
+              <PropertyRef Name="empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_promocion_empresa">
+          <End Role="empresa" Type="Self.empresa" Multiplicity="0..1" />
+          <End Role="promocion" Type="Self.promocion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="codigo" />
+            </Principal>
+            <Dependent Role="promocion">
+              <PropertyRef Name="empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="empresaBDModelStoreContainer">
+          <EntitySet Name="categorias" EntityType="Self.categorias" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="empresa" EntityType="Self.empresa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="empresaCategoria" EntityType="Self.empresaCategoria" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="promocion" EntityType="Self.promocion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_empresaCategoria_categorias" Association="Self.FK_empresaCategoria_categorias">
+            <End Role="categorias" EntitySet="categorias" />
+            <End Role="empresaCategoria" EntitySet="empresaCategoria" />
+          </AssociationSet>
+          <AssociationSet Name="FK_empresaCategoria_empresa" Association="Self.FK_empresaCategoria_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="empresaCategoria" EntitySet="empresaCategoria" />
+          </AssociationSet>
+          <AssociationSet Name="FK_promocion_empresa" Association="Self.FK_promocion_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="promocion" EntitySet="promocion" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="empresaBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="categorias">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="Int64" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="empresaCategoria" Relationship="empresaBDModel.FK_empresaCategoria_categorias" FromRole="categorias" ToRole="empresaCategoria" />
+        </EntityType>
+        <EntityType Name="empresa">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="latitud" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="longitud" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="correo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="promocion" Relationship="Self.FK_promocion_empresa" FromRole="empresa" ToRole="promocion" />
+          <NavigationProperty Name="empresaCategoria" Relationship="empresaBDModel.FK_empresaCategoria_empresa" FromRole="empresa" ToRole="empresaCategoria" />
+        </EntityType>
+        <EntityType Name="promocion">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="precio" Type="Int64" />
+          <Property Name="empresa" Type="Int64" />
+          <Property Name="fechaInicial" Type="DateTime" Precision="3" />
+          <Property Name="fechaFinal" Type="DateTime" Precision="3" />
+          <Property Name="imagen" Type="String" MaxLength="600" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="empresa1" Relationship="Self.FK_promocion_empresa" FromRole="promocion" ToRole="empresa" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="usuarios">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="codigo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="correo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="FK_promocion_empresa">
+          <End Role="empresa" Type="Self.empresa" Multiplicity="0..1" />
+          <End Role="promocion" Type="Self.promocion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="codigo" />
+            </Principal>
+            <Dependent Role="promocion">
+              <PropertyRef Name="empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="empresaBDEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="categorias" EntityType="Self.categorias" />
+          <EntitySet Name="empresa" EntityType="Self.empresa" />
+          <EntitySet Name="promocion" EntityType="Self.promocion" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="usuarios" EntityType="Self.usuarios" />
+          <AssociationSet Name="FK_promocion_empresa" Association="Self.FK_promocion_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="promocion" EntitySet="promocion" />
+          </AssociationSet>
+          <EntitySet Name="empresaCategoria" EntityType="empresaBDModel.empresaCategoria" />
+          <AssociationSet Name="FK_empresaCategoria_categorias" Association="empresaBDModel.FK_empresaCategoria_categorias">
+            <End Role="categorias" EntitySet="categorias" />
+            <End Role="empresaCategoria" EntitySet="empresaCategoria" />
+          </AssociationSet>
+          <AssociationSet Name="FK_empresaCategoria_empresa" Association="empresaBDModel.FK_empresaCategoria_empresa">
+            <End Role="empresa" EntitySet="empresa" />
+            <End Role="empresaCategoria" EntitySet="empresaCategoria" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="empresaCategoria">
+          <Key>
+            <PropertyRef Name="codigo" />
+          </Key>
+          <Property Name="empresa" Type="Int64" />
+          <Property Name="categoria" Type="Int64" />
+          <Property Name="codigo" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="categorias" Relationship="empresaBDModel.FK_empresaCategoria_categorias" FromRole="empresaCategoria" ToRole="categorias" />
+          <NavigationProperty Name="empresa1" Relationship="empresaBDModel.FK_empresaCategoria_empresa" FromRole="empresaCategoria" ToRole="empresa" />
+        </EntityType>
+        <Association Name="FK_empresaCategoria_categorias">
+          <End Type="empresaBDModel.categorias" Role="categorias" Multiplicity="0..1" />
+          <End Type="empresaBDModel.empresaCategoria" Role="empresaCategoria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="categorias">
+              <PropertyRef Name="codigo" />
+            </Principal>
+            <Dependent Role="empresaCategoria">
+              <PropertyRef Name="categoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_empresaCategoria_empresa">
+          <End Type="empresaBDModel.empresa" Role="empresa" Multiplicity="0..1" />
+          <End Type="empresaBDModel.empresaCategoria" Role="empresaCategoria" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empresa">
+              <PropertyRef Name="codigo" />
+            </Principal>
+            <Dependent Role="empresaCategoria">
+              <PropertyRef Name="empresa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="empresaBDModelStoreContainer" CdmEntityContainer="empresaBDEntities1">
+          <EntitySetMapping Name="categorias">
+            <EntityTypeMapping TypeName="empresaBDModel.categorias">
+              <MappingFragment StoreEntitySet="categorias">
+                <ScalarProperty Name="codigo" ColumnName="codigo" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="empresa">
+            <EntityTypeMapping TypeName="empresaBDModel.empresa">
+              <MappingFragment StoreEntitySet="empresa">
+                <ScalarProperty Name="codigo" ColumnName="codigo" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="latitud" ColumnName="latitud" />
+                <ScalarProperty Name="longitud" ColumnName="longitud" />
+                <ScalarProperty Name="correo" ColumnName="correo" />
+                <ScalarProperty Name="pass" ColumnName="pass" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="promocion">
+            <EntityTypeMapping TypeName="empresaBDModel.promocion">
+              <MappingFragment StoreEntitySet="promocion">
+                <ScalarProperty Name="codigo" ColumnName="codigo" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+                <ScalarProperty Name="empresa" ColumnName="empresa" />
+                <ScalarProperty Name="fechaInicial" ColumnName="fechaInicial" />
+                <ScalarProperty Name="fechaFinal" ColumnName="fechaFinal" />
+                <ScalarProperty Name="imagen" ColumnName="imagen" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="empresaBDModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usuarios">
+            <EntityTypeMapping TypeName="empresaBDModel.usuarios">
+              <MappingFragment StoreEntitySet="usuarios">
+                <ScalarProperty Name="codigo" ColumnName="codigo" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="correo" ColumnName="correo" />
+                <ScalarProperty Name="pass" ColumnName="pass" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="empresaCategoria">
+            <EntityTypeMapping TypeName="empresaBDModel.empresaCategoria">
+              <MappingFragment StoreEntitySet="empresaCategoria">
+                <ScalarProperty Name="codigo" ColumnName="codigo" />
+                <ScalarProperty Name="categoria" ColumnName="categoria" />
+                <ScalarProperty Name="empresa" ColumnName="empresa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

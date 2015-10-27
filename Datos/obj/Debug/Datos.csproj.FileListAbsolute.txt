@@ -1,0 +1,48 @@
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\Datos.dll.config
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\Datos.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\Datos.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\obj\Debug\Datos.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\obj\Debug\Datos.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\AutoMapper.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\Entidades.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\Entidades.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\AutoMapper.xml
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Datos\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\Datos.dll.config
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\Datos.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\Datos.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\AutoMapper.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\Entidades.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\Entidades.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\AutoMapper.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\es\EntityFramework.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\obj\Debug\Datos.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa\Datos\obj\Debug\Datos.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\Datos.dll.config
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\Datos.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\Datos.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\AutoMapper.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\Entidades.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\Entidades.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\AutoMapper.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\es\EntityFramework.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\obj\Debug\Datos.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Datos\obj\Debug\Datos.pdb

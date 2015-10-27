@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="empresaBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="categorias">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int64" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="empresa">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="latitud" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="longitud" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="promocion" Relationship="Self.FK_promocion_empresa" FromRole="empresa" ToRole="promocion" />
+  </EntityType>
+  <EntityType Name="promocion">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Int64" />
+    <Property Name="empresa" Type="Int64" />
+    <Property Name="fechaInicial" Type="DateTime" Precision="3" />
+    <Property Name="fechaFinal" Type="DateTime" Precision="3" />
+    <Property Name="imagen" Type="String" MaxLength="600" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="empresa1" Relationship="Self.FK_promocion_empresa" FromRole="promocion" ToRole="empresa" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_promocion_empresa">
+    <End Role="empresa" Type="Self.empresa" Multiplicity="0..1" />
+    <End Role="promocion" Type="Self.promocion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empresa">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="promocion">
+        <PropertyRef Name="empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="empresaBDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categorias" EntityType="Self.categorias" />
+    <EntitySet Name="empresa" EntityType="Self.empresa" />
+    <EntitySet Name="promocion" EntityType="Self.promocion" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" />
+    <AssociationSet Name="FK_promocion_empresa" Association="Self.FK_promocion_empresa">
+      <End Role="empresa" EntitySet="empresa" />
+      <End Role="promocion" EntitySet="promocion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

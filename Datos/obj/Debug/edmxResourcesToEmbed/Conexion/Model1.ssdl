@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="empresaBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="categorias">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="bigint" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="empresa">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" />
+    <Property Name="latitud" Type="varchar(max)" />
+    <Property Name="longitud" Type="varchar(max)" />
+    <Property Name="correo" Type="varchar" MaxLength="300" />
+    <Property Name="pass" Type="varchar(max)" />
+    <Property Name="telefono" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'empresaBD.dbo.empresaCategoria' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="empresaCategoria">
+          <Property Name="empresa" Type="bigint" />
+          <Property Name="categoria" Type="bigint" />
+        </EntityType>-->
+  <EntityType Name="promocion">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="precio" Type="bigint" />
+    <Property Name="empresa" Type="bigint" />
+    <Property Name="fechaInicial" Type="datetime" />
+    <Property Name="fechaFinal" Type="datetime" />
+    <Property Name="imagen" Type="varchar" MaxLength="600" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="correo" Type="varchar" MaxLength="300" />
+    <Property Name="pass" Type="varchar(max)" />
+    <Property Name="telefono" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <!--Errores durante la generación:
+error 6004: Una relación hace referencia a la tabla 'empresaBD.dbo.empresaCategoria', pero no se encuentra la tabla.
+        <Association Name="FK_empresaCategoria_categorias" />-->
+  <!--Errores durante la generación:
+error 6004: Una relación hace referencia a la tabla 'empresaBD.dbo.empresaCategoria', pero no se encuentra la tabla.
+        <Association Name="FK_empresaCategoria_empresa" />-->
+  <Association Name="FK_promocion_empresa">
+    <End Role="empresa" Type="Self.empresa" Multiplicity="0..1" />
+    <End Role="promocion" Type="Self.promocion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empresa">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="promocion">
+        <PropertyRef Name="empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="empresaBDModelStoreContainer">
+    <EntitySet Name="categorias" EntityType="Self.categorias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="empresa" EntityType="Self.empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="promocion" EntityType="Self.promocion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_promocion_empresa" Association="Self.FK_promocion_empresa">
+      <End Role="empresa" EntitySet="empresa" />
+      <End Role="promocion" EntitySet="promocion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

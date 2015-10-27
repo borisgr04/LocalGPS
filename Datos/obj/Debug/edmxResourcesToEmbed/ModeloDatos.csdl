@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="empresaBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="empresa">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int64" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="Binary" MaxLength="50" FixedLength="false" />
+    <Property Name="latitud" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="longitud" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="promocion" Relationship="Self.FK_promocion_empresa" FromRole="empresa" ToRole="promocion" />
+  </EntityType>
+  <EntityType Name="promocion">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="Int64" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Int64" />
+    <Property Name="empresa" Type="Int64" />
+    <Property Name="fechaInicial" Type="DateTime" Precision="3" />
+    <Property Name="fechaFinal" Type="DateTime" Precision="3" />
+    <Property Name="imagen" Type="String" MaxLength="600" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="empresa1" Relationship="Self.FK_promocion_empresa" FromRole="promocion" ToRole="empresa" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_promocion_empresa">
+    <End Role="empresa" Type="Self.empresa" Multiplicity="0..1" />
+    <End Role="promocion" Type="Self.promocion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empresa">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="promocion">
+        <PropertyRef Name="empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="empresaBDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="empresa" EntityType="Self.empresa" />
+    <EntitySet Name="promocion" EntityType="Self.promocion" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_promocion_empresa" Association="Self.FK_promocion_empresa">
+      <End Role="empresa" EntitySet="empresa" />
+      <End Role="promocion" EntitySet="promocion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,8 @@
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Entidades\bin\Debug\Entidades.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Entidades\obj\Debug\Entidades.dll
+C:\Users\Yeison Velasquez\Desktop\LocalizacionEmpresa\Entidades\obj\Debug\Entidades.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Entidades\bin\Debug\Entidades.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Entidades\bin\Debug\Entidades.pdb
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Entidades\obj\Debug\Entidades.dll
+E:\Dev\Boris\Tecno\LocalizacionEmpresa\LocalizacionEmpresa_3\LocalizacionEmpresa\Entidades\obj\Debug\Entidades.pdb
